@@ -28,12 +28,12 @@ def execute(filters=None):
 
     cuentas = asset + liability + equity
 
+    # Falta Cheques
     totales_mes_anterior = {
-        u'Cuentas bancarias - UTN': 0,
-        u'Efectivo - UTN': 0,
-        u'Efectivo en caja - UTN': 0,
-        u'HSBC - UTN': 0,
-        u'NACION - UTN': 0
+        u'1003 - CAJA - U': 0,
+        u'20 - Bco. Macro Cta. Cte. - U': 0,
+        u'23 - Bco. Macro Licenciatura - U': 0,
+        u'21 - Bco. Santa Fe Cta.Cte. - U': 0,
     }
 
     for cuenta in cuentas:
