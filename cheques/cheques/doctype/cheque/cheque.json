@@ -183,7 +183,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2016-10-11 11:44:38.720249", 
+ "modified": "2016-10-11 13:21:21.289261", 
  "modified_by": "Administrator", 
  "module": "Cheques", 
  "name": "Cheque", 
@@ -212,7 +212,7 @@
    "write": 1
   }
  ], 
- "quick_entry": 1, 
+ "quick_entry": 0, 
  "read_only": 0, 
  "read_only_onload": 0, 
  "search_fields": "nro_cheque", 
