@@ -22,7 +22,7 @@ def inactivar_cheque(doc, event):
     payment entry sea del payment_type Pay y
     el mode_of_payment.mode_of_payment sea Cheque.
     """
-    if doc.payment_type == "Pay" and doc.mode_of_payment == 'Cheque':
+    if (doc.payment_type == "Pay" or doc.payment_type == "Internal Transfer") and doc.mode_of_payment == 'Cheque':
         cheque = frappe.get_doc("Cheque", doc.cheque_en_cartera)
         cheque.estado = 'Inactivo'
         cheque.save()
