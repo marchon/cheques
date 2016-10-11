@@ -3,6 +3,15 @@
 
 frappe.ui.form.on('Cheque', {
 	refresh: function(frm) {
-
 	}
 });
+
+
+
+cur_frm.fields_dict.sucursal.get_query = function(doc,cdt,cdn) {
+	return{
+		filters:[
+			['banco', '=', doc.banco]
+		]
+	}
+}

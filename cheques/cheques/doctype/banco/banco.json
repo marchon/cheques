@@ -62,7 +62,7 @@
    "reqd": 1, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "unique": 1
+   "unique": 0
   }
  ], 
  "hide_heading": 0, 
@@ -75,7 +75,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2016-10-11 10:45:57.370955", 
+ "modified": "2016-10-11 10:57:38.082925", 
  "modified_by": "Administrator", 
  "module": "Cheques", 
  "name": "Banco", 
