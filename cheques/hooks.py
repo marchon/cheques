@@ -11,6 +11,8 @@ app_color = "grey"
 app_email = "contacto@diamo.com.ar"
 app_license = "MIT"
 
+fixtures = ["Print Format", "Report", "Custom Script", "Property Setter", "Custom Fields"]
+
 # Includes in <head>
 # ------------------
 
