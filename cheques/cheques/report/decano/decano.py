@@ -53,9 +53,9 @@ def execute(filters=None):
                `tabPayment Entry`.paid_from, `tabPayment Entry`.paid_to, `tabPayment Entry`.paid_amount,
                `tabPayment Entry`.received_amount, `tabPayment Entry`.remarks
         from `tabPayment Entry`
-        where MONTH(posting_date)=%s
+        where MONTH(posting_date)=%s and YEAR(posting_date)=%s
         order by `tabPayment Entry`.posting_date
-    """ % (MESES[filters.month]), as_dict=1)
+    """ % (MESES[filters.month], filters.year), as_dict=1)
 
     columns = get_columns(accounts)
     data = []
